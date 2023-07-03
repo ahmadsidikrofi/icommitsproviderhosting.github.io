@@ -272,7 +272,7 @@ ol {
 
 .header__info {
 	padding: 10px 0;
-	border-bottom: 1px solid #252163;
+	/* border-bottom: 1px solid #cdcce2; */
 }
 
 .header__info-left ul li {
