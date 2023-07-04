@@ -757,7 +757,7 @@ ol {
 	border: 1px solid #4c57d6;
 	border-radius: 50px;
 	height: 52px;
-	width: 266px;
+	width: 285px;
 	float: right;
 }
 
@@ -786,19 +786,19 @@ ol {
 	visibility: hidden;
 }
 
-.monthly__plans,
+.paket_bulanan,
 .yearly__plans {
 	display: none;
 }
 
-.monthly__plans.active,
+.paket_bulanan.active,
 .yearly__plans.active {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 }
 
-.pricing__item {
+.harga_paket {
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 22px;
@@ -813,27 +813,31 @@ ol {
 	margin-bottom: 40px;
 }
 
-.pricing__item:hover {
+.harga_paket:hover {
 	-webkit-box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
 	box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
 }
 
-.pricing__item:hover h3 {
+.harga_paket:hover h3 {
 	background: #4c57d6;
 }
 
-.pricing__item:hover .primary-btn {
+.harga_paket:hover .primary-btn {
 	background: #4c57d6;
 	color: #ffffff;
 }
 
-.pricing__item h4 {
-	color: #111111;
+.harga_paket h4 {
+	color: #1f72db;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
+.harga_paket h5 {
+	color: #1f72db;
+	margin-bottom: 20px;
+}
 
-.pricing__item h3 {
+.harga_paket h3 {
 	background: #120851;
 	font-weight: 700;
 	color: #ffffff;
@@ -847,23 +851,23 @@ ol {
 	transition: all 0.3s;
 }
 
-.pricing__item h3 span {
+.harga_paket h3 span {
 	font-size: 16px;
 	font-weight: 400;
 }
 
-.pricing__item ul {
+.harga_paket ul {
 	margin-bottom: 26px;
 }
 
-.pricing__item ul li {
+.harga_paket ul li {
 	font-size: 14px;
 	color: #444444;
 	line-height: 40px;
 	list-style: none;
 }
 
-.pricing__item .primary-btn {
+.harga_paket .primary-btn {
 	color: #111111;
 	background: #f2f2f2;
 	display: block;
