@@ -259,7 +259,7 @@ ol {
 
 .header-section.header-normal {
 	position: relative;
-	background: #120851;
+	background: #0c3261;
 }
 
 .header-section.header-normal .header__logo {
@@ -386,10 +386,10 @@ ol {
 /* Dropdown plugin start */
 .header__menu ul li .dropdown-plugin {
 	position: absolute;
-	left: -15cm;
+	left: -17cm;
 	top: 40px;
 	margin-top: 30px;
-	width: 21cm;
+	width: 23cm;
 	background: #7d5ccc;
 	opacity: 0;
 	visibility: hidden;
@@ -892,9 +892,34 @@ ol {
 }
 
 /* Featured Customer Section Start */
-.featured_customer {
-	/* display: flex;
-	justify-content: center; */
+/* .featured_customer {
+	margin-right: 30px;
+	margin-left: 80px;
+} */
+.featured_customer img {
+	display: inline-block;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	justify-content: center;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
+	box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.featured_customer img:last-child {
+	margin-right: 0;
+}
+
+.featured_customer img:hover {
+	-webkit-box-shadow: 0px 8px 30px rgba(23, 8, 81, 0.3);
+	box-shadow: 0px 8px 30px rgba(23, 8, 81, 0.3);
 }
 .customer_trust {
 	/* background: #ffffff; */
@@ -906,7 +931,7 @@ ol {
 	-webkit-box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
 	box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
 	margin-bottom: -30px;
-	margin-right: 5px;
+	margin-right: 100px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
@@ -1024,7 +1049,7 @@ ol {
   Choose Plan
 -----------------------*/
 
-.choose-plan-section.pricing-page {
+.up-to-discount.pricing-page {
 	background: #f5f5f5;
 }
 
@@ -1795,10 +1820,83 @@ ol {
 	color: #444444;
 }
 
+/* Promo Start */
+.promo_card {
+	margin-bottom: 40px;
+}
+
+.promo_card .promo_pic {
+	height: 253px;
+	position: relative;
+}
+
+.promo_card .promo_pic .label {
+	font-size: 12px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: #4c57d6;
+	padding: 2px 10px;
+	display: inline-block;
+	border-radius: 5px;
+	position: absolute;
+	left: 30px;
+	bottom: -11px;
+}
+
+.promo_card .promo_text {
+	padding-left: 30px;
+	padding-top: 25px;
+}
+
+.promo_card .promo_text h5 {
+	margin-bottom: 5px;
+}
+
+.promo_card .promo_text h5 a {
+	font-size: 20px;
+	font-weight: 700;
+	color: #5c5699;
+	line-height: 27px;
+	text-decoration: none;
+}
+
+.promo_card .promo_text ul li {
+	list-style: none;
+	/* display: inline-block; */
+	color: #666666;
+	font-size: 13px;
+	margin-right: 20px;
+}
+
+.promo_card .promo_text ul li:last-child {
+	margin-right: 0;
+}
+
+.promo_card .promo_text ul li i {
+	height: 30px;
+	width: 30px;
+	background: #f2f2f2;
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.promo_card .btn-go-link {
+	color: #ffffff;
+	font-weight: 700;
+	background-color: #0c3261;
+}
+.promo_card .btn-go-link:hover {
+	color: #ffffff;
+	background-color: #1f72db;
+}
+/* Promo End */
+
 /*---------------------
   Blog
 -----------------------*/
-
+/* 
 .blog__item {
 	margin-bottom: 40px;
 }
@@ -1857,7 +1955,7 @@ ol {
 	line-height: 30px;
 	text-align: center;
 	margin-right: 5px;
-}
+} */
 
 .load-more {
 	text-align: center;
