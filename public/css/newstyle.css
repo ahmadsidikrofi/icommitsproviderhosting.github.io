@@ -799,12 +799,12 @@ ol {
 }
 
 .paket_bulanan,
-.yearly__plans {
+.paket_tahunan {
 	display: none;
 }
 
 .paket_bulanan.active,
-.yearly__plans.active {
+.paket_tahunan.active {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -906,8 +906,8 @@ ol {
 	margin-bottom: 10px;
 	justify-content: center;
 	border-radius: 10px;
-	-webkit-box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
-	box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
@@ -1823,11 +1823,44 @@ ol {
 /* Promo Start */
 .promo_card {
 	margin-bottom: 40px;
+	border-radius: 25px;
+	-webkit-box-shadow: 4px -10px 4px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 4px -10px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+.promo_card:hover {
+	pointer-events: stroke;
+	border-radius: 25px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	
+}
+
+.promo_card:hover {
+	transform: scale(0.95);
+	transition: all 0.3s;
+	/* transition: all 0.5s;
+	transform: translate(0, 0.4em); */
+	box-shadow: 0 0 0 0 #fff;
+  }
+  
+  .promo_card:not(hover) {
+	transition: all 0.3s;
+  }
+  
 
 .promo_card .promo_pic {
 	height: 253px;
 	position: relative;
+}
+
+.promo_card .promo_pic:hover {
+	pointer-events: stroke;
+	border-radius: 25px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .promo_card .promo_pic .label {
@@ -1891,6 +1924,8 @@ ol {
 	color: #ffffff;
 	background-color: #1f72db;
 }
+
+
 /* Promo End */
 
 /*---------------------

@@ -99,12 +99,12 @@
         $(".pricing__swipe-btn label").removeClass("active");
         $(this).addClass("active");
 
-        if(e.target.htmlFor == 'month') {
-            $(".yearly__plans").removeClass('active');
-            $(".monthly__plans").addClass('active');
-        } else if (e.target.htmlFor == 'yearly') {
-            $(".monthly__plans").removeClass('active');
-            $(".yearly__plans").addClass('active');
+        if(e.target.htmlFor == 'bulanan') {
+            $(".paket_tahunan").removeClass('active');
+            $(".paket_bulanan").addClass('active');
+        } else if (e.target.htmlFor == 'tahunan') {
+            $(".paket_bulanan").removeClass('active');
+            $(".paket_tahunan").addClass('active');
         }     
     });
     /*------------------
