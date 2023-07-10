@@ -2300,6 +2300,64 @@ ol {
 /* Promo End */
 
 /*---------------------
+  Get Migration On Domain Start
+-----------------------*/
+
+.get_domain_migration {
+	background: #1F72DB2B;
+	padding-bottom: 60px;
+}
+
+.get_domain_migration img {
+	width: 25rem;
+	height: 25rem;
+	flex-shrink: 0;
+}
+
+.get_domain_migration h4  {
+	color: #5C5699;
+	font-family: Montserrat;
+	font-size: 1.8rem;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 3.5rem;
+}
+
+.get_domain_migration p {
+	color: #000;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 3.5rem;
+}
+
+.get_domain_migration a {
+	color: #0C3261;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	border-radius: 30px;
+	line-height: 3.5rem;
+}
+
+/*---------------------
+  Get Migration On Domain End
+-----------------------*/
+
+/*---------------------
+  Keuntungan Start
+-----------------------*/
+.keuntungan_section {
+	background: #ffffff;
+	padding-bottom: 60px;
+}
+
+/*---------------------
+  Keuntungan End
+-----------------------*/
+/*---------------------
   Blog
 -----------------------*/
 /* 
