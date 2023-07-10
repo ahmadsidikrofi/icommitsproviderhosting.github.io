@@ -176,7 +176,7 @@ ol {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 13px 30px 12px;
-	background: #1f72db;
+	background: #0A2640;
 	border: none;
 	border-radius: 50px;
 }
@@ -330,7 +330,8 @@ ol {
 }
 
 .header__logo {
-	padding-top: 30px;
+	padding-top: 19px;
+	width: 130px;
 }
 
 .header__logo a {
@@ -577,6 +578,213 @@ ol {
 	transition: all 0.9s ease-out;
 }
 
+/* Halaman Cek Domain Start */
+.hero_item_domain {
+	height: 945px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.hero_item_domain::before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/hero/hero-domain.png');
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.hero_item_domain .item_domain_text {
+	padding-top: 184px;
+}
+
+.hero_item_domain .item_domain_text h5 {
+	color: #ffffff;
+	opacity: 0.7;
+	font-weight: 500;
+	margin-bottom: 15px;
+	position: relative;
+	top: 100px;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.hero_item_domain .item_domain_text h2 {
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 47px;
+	text-transform: uppercase;
+	margin-bottom: 28px;
+	position: relative;
+	top: 100px;
+	opacity: 0;
+	-webkit-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	transition: all 0.6s ease-out;
+}
+
+.hero_item_domain .item_domain_text .primary-btn {
+	position: relative;
+	top: 100px;
+	opacity: 0;
+	-webkit-transition: all 0.9s ease-out;
+	-o-transition: all 0.9s ease-out;
+	transition: all 0.9s ease-out;
+}
+
+.cek_domain .form_cek_domain {
+	margin-bottom: 34px;
+}
+
+.cek_domain .form_cek_domain form {
+	position: relative;
+}
+
+.cek_domain .form_cek_domain form input {
+	width: 100%;
+	height: 54px;
+	border: 2px solid #4c57d6;
+	border-radius: 50px;
+	font-size: 14px;
+	color: #111111;
+	padding-left: 20px;
+}
+
+.cek_domain .form_cek_domain form input::-webkit-input-placeholder {
+	color: #111111;
+}
+
+.cek_domain .form_cek_domain form input::-moz-placeholder {
+	color: #111111;
+}
+
+.cek_domain .form_cek_domain form input:-ms-input-placeholder {
+	color: #111111;
+}
+
+.cek_domain .form_cek_domain form input::-ms-input-placeholder {
+	color: #111111;
+}
+
+.cek_domain .form_cek_domain form input::placeholder {
+	color: #111111;
+}
+
+.cek_domain .form_cek_domain form .site-btn {
+	position: absolute;
+	right: 4px;
+	top: 4px;
+}
+
+.cek_domain .cek_result {
+	margin-bottom: 24px;
+}
+
+.cek_domain .cek_result ul li {
+	display: inline-block;
+	list-style: none;
+	color: #4c57d6;
+	font-weight: 700;
+	margin-right: 60px;
+	font-size: 20px;
+}
+
+.cek_domain .cek_result ul li:last-child {
+	margin-right: 0;
+}
+
+.cek_domain .cek_result ul li span {
+	color: #111111;
+}
+
+.cek_domain p {
+	margin-bottom: 0;
+}
+
+/* Card Extension Start */
+.card_extension {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.tipe_extension {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 22px;
+	background: #ffffff;
+	padding-left: 20px;
+	padding-right: 20px;
+	-webkit-box-shadow: 0px 3px 10px rgba(18, 8, 81, 0.1);
+	box-shadow: 0px 3px 10px rgba(18, 8, 81, 0.1);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+
+.tipe_extension:hover {
+	-webkit-box-shadow: 0px 8px 30px rgba(37, 23, 126, 0.3);
+	box-shadow: 0px 8px 30px rgba(37, 23, 126, 0.3);
+	border-radius: 50px;
+	border: solid #4c57d6 2px;
+}
+
+.tipe_extension h4 {
+	color: #1f72db;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.tipe_extension img {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.tipe_extension p {
+	text-align: left;
+}
+
+.discount_extension {
+    /* position: absolute; */
+    /* top: 0;
+    right: 100px; */
+    background-color: #bed6fb;
+    border-radius: 24.47525rem 0 0 24.47525rem;
+    display: flex;
+	padding-top: 24.5px;
+	padding-bottom: 22.3px;
+	padding-left: 24.5px;
+	padding-left: 22.3px;
+    align-items: center;
+	justify-content: right;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #425475;
+  }
+  
+ /* .card_body_extension .card_body_extension .discount_extension small {
+    color: #707a91;
+    font-size: 0.75em;
+    margin-left: 0.25em;
+  } */
+
+/* Halaman Cek Domain End */
+
 /*---------------------
   Register Domain
 -----------------------*/
@@ -693,7 +901,7 @@ ol {
 	list-style: none;
 	color: #4c57d6;
 	font-weight: 700;
-	margin-right: 70px;
+	margin-right: 60px;
 	font-size: 20px;
 }
 
@@ -1049,6 +1257,102 @@ ol {
   Choose Plan
 -----------------------*/
 
+/*---------------------
+  Work Section
+-----------------------*/
+/*---------------------
+  Kelebihan Web Hosting Section Start
+-----------------------*/
+
+.kelebihan-section {
+	background-color: #d9e7f9;
+	padding-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+    .kelebihan-2-img {
+        order: -1;
+        text-align: left;
+		margin-bottom: 150px;
+    }
+}
+@media (max-width: 992px) {
+    .kelebihan-2-img {
+        order: -1;
+        text-align: left;
+		margin-bottom: 150px;
+    }
+}
+@media (max-width: 1200px) {
+    .kelebihan-2-img {
+        order: -1;
+        text-align: left;
+		margin-bottom: 150px;
+    }
+}
+
+.kelebihan-section h2 {
+	color: #1F72DB;
+}
+
+.kelebihan-section h3 {
+	color: #1F72DB;
+}
+
+.kelebihan-2-img, .kelebihan-1-img {
+	width: 420px;
+	height: 200px;
+}
+
+.kelebihan-2-img img, .kelebihan-1-img img {
+	-webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.point_kelebihan {
+	background: #ffffff;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-right: 45px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
+	box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
+	margin-bottom: 40px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.point_kelebihan:hover {
+	-webkit-box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+	box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+}
+
+.point_kelebihan h5 {
+	font-size: 20px;
+	color: #111111;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.point_kelebihan span {
+	font-size: 15px;
+	color: #4c57d6;
+	font-weight: 500;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.point_kelebihan p {
+	color: #111111;
+}
+
+
+/*---------------------
+  Kelebihan Web Hosting Section End
+-----------------------*/
+
 .up-to-discount.pricing-page {
 	background: #f5f5f5;
 }
@@ -1080,6 +1384,72 @@ ol {
 	margin-right: 5px;
 	color: #4c57d6;
 }
+
+/* FAQ Section Start */
+.faq {
+	background: #222fb4 ;
+	padding-bottom: 60px;
+}
+
+.faq .faq-body {
+	background: #4c57d6;
+}
+
+.faq .faq-title {
+	display: flex;
+	align-items: center;
+}
+
+.faq-toggle {
+	display: flex;
+	align-items: center;
+  }
+  
+  .faq-toggle svg {
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .faq-toggle.active svg:first-child {
+	transform: rotate(135deg);
+  }
+  
+  .faq-toggle.active svg:last-child {
+	display: inline-block;
+  }
+  
+/* FAQ Section End */
+
+/*---------------------
+  Herro unlimited Hosting Start
+-----------------------*/
+.hero-section-unlimited-hosting {
+	height: 40px;
+	position: relative;
+}
+
+.hero-right-unlimited-hosting {
+	width: 700px;
+	margin-left: -70px;
+	margin-top: 120px;
+	/* z-index: 9999; */
+}
+
+/*---------------------
+  Herro unlimited Hosting End
+-----------------------*/
+
+/*---------------------
+  search-domain-hosting Start
+-----------------------*/
+.search-domain-hosting {
+	margin-top: 62px;
+	background: #d9e7f9;
+}
+/*---------------------
+  search-domain-hosting End
+-----------------------*/
+
+
 
 /*---------------------
   Footer
@@ -1853,6 +2223,7 @@ ol {
 .promo_card .promo_pic {
 	height: 253px;
 	position: relative;
+	border-radius: 10px;
 }
 
 .promo_card .promo_pic:hover {
@@ -3015,6 +3386,7 @@ ol {
 		padding-bottom: 100px;
 		padding-top: 100px;
 	}
+
 	.header__menu ul li {
 		margin-right: 20px;
 	}
